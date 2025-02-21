@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", serif;
+}
+
+.viewport {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main--container {
+  background-color: white;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 20px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 7%);
+  border-width: 1px;
+  box-shadow: 10px 10px;
+}
+
+.banner {
+  border-radius: 10px;
+}
+
+.category {
+  font-family: "Figtree", serif;
+  font-size: 16px;
+  font-weight: 800;
+
+  background-color: hsl(47, 88%, 63%);
+  width: min-content;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+}
+.pub--date {
+  font-size: small;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.author--name {
+  font-weight: 800;
+}
+
+.description {
+  color: hsl(0, 0%, 42%);
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width:400px){
+    .main--container{
+        max-width: 80%;
+    }
+}
