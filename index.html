@@ -11,12 +11,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="viewport">
+    <div id="viewport-id" class="viewport">
       <div class="main--container">
         <img class="banner" src="assets/images/illustration-article.svg" alt="" />
         <h4 class="category">Learning</h4>
         <p class="pub--date">Published 21 Dec 2023</p>
-        <h2 class="title">HTML & CSS foundations</h2>
+        <-- add call to api here --!>
+        <h2 class="title" onclick="changeColor()">HTML & CSS foundations</h2>
         <p class="description">
           These languages are the backbone of every website, defining structure,
           content, and presentation. This is a test.
@@ -27,5 +28,7 @@
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
+    <script src="/logic/customer.js"></script>
   </body>
 </html>

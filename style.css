@@ -7,7 +7,7 @@
 .viewport {
   width: 100vw;
   height: 100vh;
-  background-color: hsl(47, 88%, 63%);
+  background-color: #e88282;
   display: flex;
   justify-content: center;
   align-items: center;
